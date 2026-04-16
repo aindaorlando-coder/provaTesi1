@@ -5,7 +5,7 @@ Sviluppare una pipeline automatizzata per l’analisi e la predizione della qual
 
 ---
 
-## Dataset
+## Dataset 
 - Dataset reale: datasetDelhi.csv
 - Variabili:
   - PM2.5
