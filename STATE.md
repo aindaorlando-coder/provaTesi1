@@ -1,35 +1,47 @@
 # Stato del progetto
 
 ## Stato attuale
-- Progetto inizializzato
-- Dataset simulato creato e salvato su GitHub
+- Progetto inizializzato e repository GitHub attiva
+- Dataset reale integrato (datasetDelhi.csv)
 - Ambiente Colab configurato e collegato alla repository
-- Preprocessing dati completato
-- Analisi esplorativa (EDA) completata (statistiche descrittive, correlazioni, distribuzioni)
-- Pipeline Colab ↔ GitHub funzionante (commit e push)
-- Notebook Colab salvato nella repository
+- Pipeline ML implementata manualmente in Colab:
+  - Data ingestion
+  - EDA (analisi esplorativa)
+  - Preprocessing (feature selection, train/test split, scaling)
+  - Modellazione predittiva (Linear Regression, Random Forest Regressor)
+  - Valutazione modelli (MAE, MSE, R², confronto grafico)
+- Pipeline GitHub funzionante (commit e push)
+- Notebook aggiornato e versionato nella repository
+
+---
 
 ## Prossimi passi
-- Implementare modello predittivo (Logistic Regression)
-- Valutazione modello (accuracy, confusion matrix)
-- Generare codice con OpenCode.ai
-- Integrare interpretazione risultati con Ollama
+- Formalizzazione pipeline tramite GSD (spec + roadmap)
+- Generazione automatica del codice tramite OpenCode.ai
+- Confronto tra implementazione manuale (Colab) e generata (OpenCode)
+- Integrazione di Ollama per interpretazione automatica dei risultati e report
+
+---
 
 ## Task completati
-- [x] Creazione repository
-- [x] Creazione PROJECT.md
-- [x] Creazione ROADMAP.md
-- [x] Creazione STATE.md
-- [x] Dataset simulato
-- [x] Preprocessing dati
-- [x] Analisi statistica (EDA)
-- [x] Collegamento Colab ↔ GitHub
-- [x] Salvataggio notebook su GitHub
+- [x] Creazione repository GitHub
+- [x] Definizione PROJECT.md (versione aggiornata)
+- [x] Definizione ROADMAP.md (versione aggiornata)
+- [x] Definizione STATE.md
+- [x] Integrazione dataset reale (datasetDelhi.csv)
+- [x] Implementazione pipeline ML manuale in Colab
+- [x] EDA completa
+- [x] Preprocessing completo
+- [x] Modellazione regressione (Linear + Random Forest)
+- [x] Valutazione modelli (MAE, MSE, R², grafici)
+
+---
 
 ## Task in corso
-- [ ] Modellazione predittiva
-- [ ] Integrazione OpenCode.ai
-- [ ] Integrazione Ollama
+- [ ] Generazione specifiche GSD complete
+- [ ] Integrazione OpenCode.ai per generazione codice automatica
+- [ ] Integrazione Ollama per report automatici
+- [ ] Confronto manuale vs generato (baseline del progetto)
 
 ## Note
 - Dataset simulato utilizzato per prototipo
